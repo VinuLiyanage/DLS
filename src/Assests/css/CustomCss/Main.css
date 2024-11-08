@@ -1,0 +1,92 @@
+.line {
+    width: 100%;
+    height: 1px;
+    margin: 40px 0;
+}
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    background-color: white;
+}
+
+h4{
+    font-family: "Helvetica Neue","Segoe UI",helvetica,verdana,sans-serif;
+    font-weight: bold;
+    /* background-color: #6496c7; */
+    background-color: whitesmoke;
+    color:#001e3c;
+}
+
+h5{
+    font-family: "Helvetica Neue","Segoe UI",helvetica,verdana,sans-serif;
+    font-weight: bold;
+    color:#001e3c;
+}
+
+a.btn{
+    background-color: #2390d6;
+}
+
+a.btn:hover{
+    background-color: #001e3c;
+}
+
+button.btn{
+    background-color: #c22a71;
+}
+
+button.btn:hover{
+    background-color: #001e3c;
+}
+
+.dx-field-item-label-location-left{
+    padding-right: 35px;
+}
+
+.dx-widget{
+    font-size: 16px;
+}
+
+.dx-field-item-label-text{
+    font-size: 16px;
+}
+
+.dx-icon-trash::before{
+    color: red;
+}
+
+.dx-icon-edit::before{
+    color: rgb(58, 172, 172);
+}
+
+.dx-datagrid-headers{
+    font-weight: bold;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.dx-datagrid-header-panel, .dx-toolbar, .dx-datagrid-pager, .dx-datagrid-filter-panel {
+    background-color: rgb(233, 232, 232);
+    border-style: none;
+}
+
+.dx-datagrid, .dx-datagrid-pager{
+    font-size: 13px;
+}
+
+.GridLines .dx-datagrid-header-panel, .GridLines .dx-toolbar, #TB .dx-toolbar-items-container{
+    background-color: white;
+}
+
+td{
+    text-align: 'center';
+}
+
+
+#invoiceLines .dx-datagrid-headers .dx-datagrid-table .dx-row > td{
+    background-color: lightgray;
+}
+

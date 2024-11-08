@@ -1,0 +1,28 @@
+#gridContainer{
+    margin: 20px;
+}
+
+input[type=text]:not(.browser-default){
+    border-bottom: none;
+    margin: 0;
+    height: 0;
+    padding-left: 9px;
+    padding-right: 8PX;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]){
+    border-bottom: none;
+    margin: 0;
+}
+
+.mg-20{
+    margin: 0px 20px 20px 20px;
+}
+
+.p-15{
+    padding: 15px;
+}
+
+.NICUpload{
+    margin-top: -30px;
+}

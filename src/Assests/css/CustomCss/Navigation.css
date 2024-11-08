@@ -1,0 +1,29 @@
+nav{
+    background-color: rgb(255, 255, 255);/*#0d345a;*/
+}
+
+nav .nav-wrapper{
+    padding-top: 10px;
+}
+
+.nav-wrapper a.btn{
+    background-color: #d2ae6d;
+}
+
+.fixed-action-btn{
+    position: absolute;
+    bottom: 5px;
+}
+
+.fixed-action-btn.direction-left ul{
+    right:50px;
+
+}
+
+nav ul li{
+    float: none;
+}
+
+.fixed-action-btn.direction-left ul li{
+    margin: 0px 0px 0px 0px;
+}

@@ -1,0 +1,52 @@
+#divClaimCustomer .frmClaimCustomer, #divClaimCustomer, #grids{
+    background-color: white;
+    padding: 20px;
+}
+
+#divClaimCustomer .dx-datagrid-borders > .dx-datagrid-header-panel, #divClaimCustomer .dx-toolbar .dx-toolbar-items-container, #divClaimCustomer .dx-datagrid-borders > .dx-datagrid-pager{
+    background-color: white;
+}
+
+#totalCredit{
+    background-color: lightseagreen; /*aquamarine;*/
+}
+
+#totalDue{
+    background-color: rgb(230, 119, 156);
+}
+
+#totalPaid{
+    background-color: deepskyblue;
+}
+
+#divCustomer{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 70px;
+    font-weight: bold;
+}
+
+#ClaimInvoicesGrid .totalCredit{
+    font-weight: bold;
+    color: lightseagreen;
+}
+
+#ClaimInvoicesGrid .totalPaid{
+    font-weight: bold;
+    color: deepskyblue;
+}
+
+#ClaimInvoicesGrid .totalDue{
+    font-weight: bold;
+    color: rgb(230, 119, 156);
+}
+
+#ClaimInvoicesGrid .dx-datagrid .dx-link{
+    text-decoration: none;
+    color: white;
+}
+
+#ClaimInvoicesGrid a.btn{
+    background-color: RGB(52, 58, 64);
+}

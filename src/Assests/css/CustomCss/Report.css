@@ -1,0 +1,131 @@
+#invReport, #printCondition {
+    background-color: white;
+    font-size: 11px;
+    width: 900px;
+    height: 600px; /*1250px;*/
+    line-height: 1.3;
+    border: 1px solid black;
+}
+
+.btnPrint{
+    font-size: 11px;
+    width: 900px;
+    padding:2px;
+    margin-top:2px;
+    margin-bottom:2px;
+    padding-left: 830px;
+}
+
+/* #invReport .rightAlign {
+    text-align: right;
+} */
+
+#invReport .bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+#invReport .printDate {
+    position: absolute;
+    bottom: 0;
+    right: 50%
+}
+
+
+#invReport div.header {
+    display: block;
+    text-align: left;
+    position: running(header);
+    width: 100%;
+}
+
+#invReport div.footer {
+    display: block;
+    text-align: center;
+    position: running(footer);
+    width: 100%;
+}
+
+@page {
+    size: A4;
+    margin: 0.4cm;
+
+    /* @top-center {
+        content: element(header);
+    } */
+
+    @bottom-center {
+        content: element(footer);
+    }
+
+    @bottom-right {
+        content: counter(page) " of " counter(pages);
+    }
+}
+
+.custom-page-start {
+    /* margin-top: 50px; */
+}
+
+/* #invReport table {
+    border:solid #000 !important;
+    border-width:1px 0 0 1px !important;
+} */
+
+#invReport th, #invReport td{
+    
+    line-height: 1px;
+}
+
+#tblInvLines{
+    height:115px;
+}
+
+#tblInvLines th{
+    font-size: 11px;
+}
+
+#invLines td{
+    padding-top: 8px;
+    padding-bottom: 5px;
+    vertical-align: top;
+}
+
+/* #invReport th{
+    font-size: 12px;   
+} */
+
+#invReport h4{
+    background-color: white;
+}
+
+#invReport img {
+    width: 70%;
+    height: 70%;
+    padding-top: 2%;
+    padding-left: 0%;
+}
+
+/* #invReport h2{
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+@media print {
+  
+    #invReport div .container, #printConditions div .container{
+        border: 1px solid black;
+        margin-top: 0px;
+    }
+    
+}
+
+#invReport .totals{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.conditions .row{
+    margin-bottom: 0px;
+    text-align: justify;
+}
